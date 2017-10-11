@@ -15,12 +15,12 @@ notifications:
 # TODO: Figure out how specific versions of Python 3.x can be used with OS-X
 matrix:
   include:
-#    - os: linux
-#      language: python
-#      python: "2.7"
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#      cache: pip
+    - os: linux
+      language: python
+      python: "2.7"
+      env:
+        - PACKAGE_LEVEL=minimum
+      cache: pip
     - os: linux
       language: python
       python: "2.7"
@@ -33,48 +33,48 @@ matrix:
       env:
         - PACKAGE_LEVEL=minimum
       cache: pip
-#    - os: linux
-#      language: python
-#      python: "3.4"
-#      env:
-#        - PACKAGE_LEVEL=latest
-#      cache: pip
-#    - os: linux
-#      language: python
-#      python: "3.5"
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#      cache: pip
-#    - os: linux
-#      language: python
-#      python: "3.5"
-#      env:
-#        - PACKAGE_LEVEL=latest
-#      cache: pip
-#    - os: linux
-#      language: python
-#      python: "3.6"
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#      cache: pip
+    - os: linux
+      language: python
+      python: "3.4"
+      env:
+        - PACKAGE_LEVEL=latest
+      cache: pip
+    - os: linux
+      language: python
+      python: "3.5"
+      env:
+        - PACKAGE_LEVEL=minimum
+      cache: pip
+    - os: linux
+      language: python
+      python: "3.5"
+      env:
+        - PACKAGE_LEVEL=latest
+      cache: pip
+    - os: linux
+      language: python
+      python: "3.6"
+      env:
+        - PACKAGE_LEVEL=minimum
+      cache: pip
     - os: linux
       language: python
       python: "3.6"
       env:
         - PACKAGE_LEVEL=latest
       cache: pip
-#    - os: linux
-#      language: python
-#      python: "pypy-5.3.1"  # Python 2.7.10
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#      cache: pip
-#    - os: linux
-#      language: python
-#      python: "pypy-5.3.1"  # Python 2.7.10
-#      env:
-#        - PACKAGE_LEVEL=latest
-#      cache: pip
+    - os: linux
+      language: python
+      python: "pypy-5.3.1"  # Python 2.7.10
+      env:
+        - PACKAGE_LEVEL=minimum
+      cache: pip
+    - os: linux
+      language: python
+      python: "pypy-5.3.1"  # Python 2.7.10
+      env:
+        - PACKAGE_LEVEL=latest
+      cache: pip
     - os: osx
       language: generic
       python:
@@ -82,20 +82,20 @@ matrix:
         - PACKAGE_LEVEL=minimum
         - PYTHON=2
       cache: pip
-#    - os: osx
-#      language: generic
-#      python:
-#      env:
-#        - PACKAGE_LEVEL=latest
-#        - PYTHON=2
-#      cache: pip
-#    - os: osx
-#      language: generic
-#      python:
-#      env:
-#        - PACKAGE_LEVEL=minimum
-#        - PYTHON=3
-#      cache: pip
+    - os: osx
+      language: generic
+      python:
+      env:
+        - PACKAGE_LEVEL=latest
+        - PYTHON=2
+      cache: pip
+    - os: osx
+      language: generic
+      python:
+      env:
+        - PACKAGE_LEVEL=minimum
+        - PYTHON=3
+      cache: pip
     - os: osx
       language: generic
       python:
